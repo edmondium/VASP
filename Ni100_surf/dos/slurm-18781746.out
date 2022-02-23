@@ -1,0 +1,73 @@
+mpprun info: Starting impi run on 1 node ( 4 rank X 1 th ) for job ID 18781746
+ ----------------------------------------------------
+    OOO  PPPP  EEEEE N   N M   M PPPP
+   O   O P   P E     NN  N MM MM P   P
+   O   O PPPP  EEEEE N N N M M M PPPP   -- VERSION
+   O   O P     E     N  NN M   M P
+    OOO  P     EEEEE N   N M   M P
+ ----------------------------------------------------
+ running    4 mpi-ranks, with    1 threads/rank
+ distrk:  each k-point on    4 cores,    1 groups
+ distr:  one band on    1 cores,    4 groups
+ vasp.6.3.0 20Jan22 (build Feb 01 2022 16:52:37) complex                        
+  
+ POSCAR found type information on POSCAR Ni
+ POSCAR found :  1 types and       5 ions
+ scaLAPACK will be used
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.260371559587E+03    0.26037E+03   -0.15361E+04  2160   0.998E+02
+DAV:   2    -0.138614859207E+02   -0.27423E+03   -0.25790E+03  2168   0.262E+02
+DAV:   3    -0.300410095135E+02   -0.16180E+02   -0.15451E+02  2340   0.864E+01
+DAV:   4    -0.302289155279E+02   -0.18791E+00   -0.18759E+00  2424   0.962E+00
+DAV:   5    -0.302334727395E+02   -0.45572E-02   -0.45529E-02  2640   0.111E+00    0.206E+01
+DAV:   6    -0.303076104517E+02   -0.74138E-01   -0.44274E+01  2440   0.948E+01    0.289E+01
+DAV:   7    -0.328685543962E+02   -0.25609E+01   -0.43354E+01  2500   0.130E+02    0.312E+01
+DAV:   8    -0.344317053773E+02   -0.15632E+01   -0.46362E+01  2620   0.736E+01    0.375E+01
+DAV:   9    -0.282008745106E+02    0.62308E+01   -0.22638E+01  2668   0.438E+01    0.269E+01
+DAV:  10    -0.260753110179E+02    0.21256E+01   -0.16241E+01  2488   0.366E+01    0.177E+01
+DAV:  11    -0.265791203845E+02   -0.50381E+00   -0.11463E+01  2484   0.499E+01    0.172E+01
+DAV:  12    -0.259674195981E+02    0.61170E+00   -0.23168E+00  2332   0.315E+01    0.155E+01
+DAV:  13    -0.254168675900E+02    0.55055E+00   -0.20746E+00  2408   0.254E+01    0.851E+00
+DAV:  14    -0.252721147855E+02    0.14475E+00   -0.83306E-01  2416   0.128E+01    0.549E+00
+DAV:  15    -0.253656367266E+02   -0.93522E-01   -0.33487E-01  2304   0.915E+00    0.495E+00
+DAV:  16    -0.254287016786E+02   -0.63065E-01   -0.21145E-01  2616   0.735E+00    0.338E+00
+DAV:  17    -0.255141333605E+02   -0.85432E-01   -0.99835E-02  2496   0.438E+00    0.225E+00
+DAV:  18    -0.255573694029E+02   -0.43236E-01   -0.61856E-02  2276   0.330E+00    0.149E+00
+DAV:  19    -0.255476666822E+02    0.97027E-02   -0.24391E-02  2288   0.212E+00    0.840E-01
+DAV:  20    -0.255369459388E+02    0.10721E-01   -0.73572E-03  2448   0.107E+00    0.112E+00
+DAV:  21    -0.255379100831E+02   -0.96414E-03   -0.22350E-03  2324   0.526E-01    0.114E+00
+DAV:  22    -0.255524563017E+02   -0.14546E-01   -0.45668E-03  2304   0.748E-01    0.112E+00
+DAV:  23    -0.255716480221E+02   -0.19192E-01   -0.26303E-02  2284   0.193E+00    0.824E-01
+DAV:  24    -0.255753629705E+02   -0.37149E-02   -0.92806E-03  2680   0.116E+00    0.107E+00
+DAV:  25    -0.255742868459E+02    0.10761E-02   -0.28184E-03  2304   0.909E-01    0.774E-01
+DAV:  26    -0.255737276881E+02    0.55916E-03   -0.81690E-04  2244   0.364E-01    0.560E-01
+DAV:  27    -0.255738308621E+02   -0.10317E-03   -0.68187E-04  1640   0.416E-01    0.341E-01
+DAV:  28    -0.255723967740E+02    0.14341E-02   -0.45735E-04  1680   0.286E-01    0.187E-01
+DAV:  29    -0.255725323334E+02   -0.13556E-03   -0.20949E-04  1644   0.116E-01    0.141E-01
+DAV:  30    -0.255726304783E+02   -0.98145E-04   -0.14678E-04  1524   0.172E-01
+   1 F= -.25572630E+02 E0= -.25572630E+02  d E =0.000000E+00  mag=     3.1321
+ writing wavefunctions
+ -----------------------------------------------------------------------------
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|     Tetrahedron method does not include variations of the Fermi             |
+|     occupations, so forces and stress will be inaccurate. We suggest        |
+|     using a different smearing scheme ISMEAR = 1 or 2 for metals in         |
+|     relaxations.                                                            |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+mpprun info: Elapsed time (h:m:s):  0:00:15.134236

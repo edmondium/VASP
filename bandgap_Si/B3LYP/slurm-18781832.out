@@ -1,0 +1,55 @@
+mpprun info: Starting impi run on 1 node ( 4 rank X 1 th ) for job ID 18781832
+ ----------------------------------------------------
+    OOO  PPPP  EEEEE N   N M   M PPPP
+   O   O P   P E     NN  N MM MM P   P
+   O   O PPPP  EEEEE N N N M M M PPPP   -- VERSION
+   O   O P     E     N  NN M   M P
+    OOO  P     EEEEE N   N M   M P
+ ----------------------------------------------------
+ running    4 mpi-ranks, with    1 threads/rank
+ distrk:  each k-point on    4 cores,    1 groups
+ distr:  one band on    1 cores,    4 groups
+ vasp.6.3.0 20Jan22 (build Feb 01 2022 16:52:37) complex                        
+  
+ POSCAR found type information on POSCAR Si
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+ -----------------------------------------------------------------------------
+|                                                                             |
+|               ----> ADVICE to this user running VASP <----                  |
+|                                                                             |
+|     You enforced a specific xc type in the INCAR file but a different       |
+|     type was found in the POTCAR file.                                      |
+|     I HOPE YOU KNOW WHAT YOU ARE DOING!                                     |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ LDA part: xc-table for VWN3         , standard interpolation
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          ort
+ gam= 0.000 g(H,U,f)=  0.105E-01 0.355E-02 0.165E-28 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   1    -0.330443691994E+01   -0.33044E+01   -0.56143E-02   128   0.140E-01 0.000E+00
+ gam= 0.382 g(H,U,f)=  0.295E-02 0.215E-02 0.134E-63 ort(H,U,f) = 0.555E-02 0.264E-02 0.269E-63
+DMP:   2    -0.330888049952E+01   -0.44436E-02   -0.32913E-02   128   0.510E-02 0.819E-02
+ gam= 0.382 g(H,U,f)=  0.760E-03 0.107E-02 0.678-117 ort(H,U,f) = 0.166E-02 0.212E-02 0.906-116
+DMP:   3    -0.331127707776E+01   -0.23966E-02   -0.13091E-02   128   0.183E-02 0.377E-02
+ gam= 0.382 g(H,U,f)=  0.366E-03 0.503E-03-0.110-177 ort(H,U,f) = 0.312E-03 0.123E-02 0.312-177
+DMP:   4    -0.331223744197E+01   -0.96036E-03   -0.58300E-03   128   0.869E-03 0.154E-02
+ gam= 0.382 g(H,U,f)=  0.148E-03 0.238E-03-0.116-235 ort(H,U,f) = 0.117E-03 0.644E-03 0.101-236
+DMP:   5    -0.331268006707E+01   -0.44263E-03   -0.27055E-03   128   0.386E-03 0.761E-03
+ gam= 0.382 g(H,U,f)=  0.528E-04 0.113E-03-0.350-284 ort(H,U,f) = 0.275E-04 0.324E-03-0.393-284
+DMP:   6    -0.331288513009E+01   -0.20506E-03   -0.12008E-03   128   0.166E-03 0.352E-03
+ gam= 0.382 g(H,U,f)=  0.189E-04 0.524E-04-0.287-321 ort(H,U,f) = 0.855E-05 0.158E-03-0.479-321
+DMP:   7    -0.331297826401E+01   -0.93134E-04   -0.53907E-04   128   0.713E-04 0.166E-03
+ final diagonalization
+   1 F= -.33129783E+01 E0= -.33126803E+01  d E =-.595848E-03
+ writing wavefunctions
+mpprun info: Elapsed time (h:m:s):  0:00:19.734736

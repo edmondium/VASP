@@ -1,0 +1,35 @@
+mpprun info: Starting impi run on 1 node ( 4 rank X 1 th ) for job ID 18772077
+ ----------------------------------------------------
+    OOO  PPPP  EEEEE N   N M   M PPPP
+   O   O P   P E     NN  N MM MM P   P
+   O   O PPPP  EEEEE N N N M M M PPPP   -- VERSION
+   O   O P     E     N  NN M   M P
+    OOO  P     EEEEE N   N M   M P
+ ----------------------------------------------------
+ running    4 mpi-ranks, with    1 threads/rank
+ distrk:  each k-point on    4 cores,    1 groups
+ distr:  one band on    1 cores,    4 groups
+ vasp.6.3.0 20Jan22 (build Feb 01 2022 16:52:37) complex                        
+  
+ POSCAR found type information on POSCAR Si
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+ LDA part: xc-table for Pade appr. of Perdew
+ WARNING: stress and forces are not correct
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ WAVECAR not read
+ charge-density read from file: fcc                                     
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.441569548691E+01   -0.44157E+01   -0.11727E+03   720   0.196E+02
+DAV:   2    -0.535666442980E+01   -0.94097E+00   -0.84925E+00  1032   0.156E+01
+DAV:   3    -0.535918702757E+01   -0.25226E-02   -0.25226E-02   720   0.802E-01
+DAV:   4    -0.535918840484E+01   -0.13773E-05   -0.13752E-05  1096   0.164E-02
+DAV:   5    -0.535918840289E+01    0.19467E-08   -0.25115E-10   600   0.635E-05
+DAV:   6    -0.535918840373E+01   -0.83996E-09   -0.25567E-12   688   0.364E-06
+   1 F= -.53591884E+01 E0= -.53591058E+01  d E =-.165292E-03
+ writing wavefunctions
+mpprun info: Elapsed time (h:m:s):  0:00:01.111930

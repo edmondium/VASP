@@ -1,0 +1,6 @@
+System = fcc Si
+
+#ICHARG = 11   # read charge file
+ENCUT = 240
+ISMEAR = -5 #tetrahedron
+LORBIT = 11

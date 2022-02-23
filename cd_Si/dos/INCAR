@@ -1,0 +1,9 @@
+System = diamond Si
+
+ISTART = 0
+ICHARG=2
+ENCUT  =    240
+#ISMEAR = 0
+ISMEAR = -5
+#SIGMA = 0.1
+LORBIT = 11

@@ -1,0 +1,54 @@
+mpprun info: Starting impi run on 1 node ( 4 rank X 1 th ) for job ID 18781525
+ ----------------------------------------------------
+    OOO  PPPP  EEEEE N   N M   M PPPP
+   O   O P   P E     NN  N MM MM P   P
+   O   O PPPP  EEEEE N N N M M M PPPP   -- VERSION
+   O   O P     E     N  NN M   M P
+    OOO  P     EEEEE N   N M   M P
+ ----------------------------------------------------
+ running    4 mpi-ranks, with    1 threads/rank
+ distrk:  each k-point on    4 cores,    1 groups
+ distr:  one band on    1 cores,    4 groups
+ vasp.6.3.0 20Jan22 (build Feb 01 2022 17:34:01) complex                        
+  
+ POSCAR found type information on POSCAR Ni
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.304505057898E+02    0.30451E+02   -0.29319E+03  8312   0.834E+02
+DAV:   2    -0.524846680608E+01   -0.35699E+02   -0.33056E+02  7724   0.173E+02
+DAV:   3    -0.647468295037E+01   -0.12262E+01   -0.12075E+01  8220   0.383E+01
+DAV:   4    -0.648575810912E+01   -0.11075E-01   -0.11068E-01  8000   0.333E+00
+DAV:   5    -0.648602898043E+01   -0.27087E-03   -0.27064E-03  8012   0.525E-01    0.977E+00
+DAV:   6    -0.579098432813E+01    0.69504E+00   -0.38766E+00  8264   0.535E+01    0.575E+00
+DAV:   7    -0.548101572832E+01    0.30997E+00   -0.89328E-01  8336   0.214E+01    0.177E+00
+DAV:   8    -0.546705991754E+01    0.13956E-01   -0.55886E-03 10508   0.131E+00    0.894E-01
+DAV:   9    -0.546475529897E+01    0.23046E-02   -0.27082E-04 10040   0.320E-01    0.255E-01
+DAV:  10    -0.546407532399E+01    0.67997E-03   -0.80644E-05  7064   0.195E-01    0.291E-02
+DAV:  11    -0.546409507197E+01   -0.19748E-04   -0.12794E-04  7588   0.126E-01
+   1 F= -.54640951E+01 E0= -.54640951E+01  d E =0.000000E+00  mag=     0.0000    -0.0000     0.5878
+ writing wavefunctions
+ -----------------------------------------------------------------------------
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|     Tetrahedron method does not include variations of the Fermi             |
+|     occupations, so forces and stress will be inaccurate. We suggest        |
+|     using a different smearing scheme ISMEAR = 1 or 2 for metals in         |
+|     relaxations.                                                            |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+mpprun info: Elapsed time (h:m:s):  0:00:09.023165

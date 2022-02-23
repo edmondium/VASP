@@ -1,0 +1,3 @@
+# set term postscript enhanced eps colour lw 2 "Helvetica" 20
+# set output "optics.eps"
+plot "dos.dat" using ($1-9.89509862):($2) w lp
